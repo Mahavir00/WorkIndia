@@ -6,7 +6,7 @@ const router = express.Router()
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "My@na225",
+    password: "pass",
     database: "user"
 })
 router.post('/user', (req, res) => {
